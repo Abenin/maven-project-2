@@ -4,6 +4,7 @@ pipeline {
     WORKSPACE = "${env.WORKSPACE}"
   }
   tools {
+    git 'Default Git'
     maven 'localMaven'
     jdk 'localJdk'
   }
